@@ -1,0 +1,22 @@
+{
+  "name": "instunf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local Instagram unfollow helper with conservative pacing and stop conditions.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "install-browser": "playwright install chromium",
+    "login": "node src/login.js",
+    "compare": "node src/compare.js",
+    "unfollow": "node src/unfollow.js",
+    "unfollow:live": "node src/unfollow.js --live",
+    "test": "node --test",
+    "check": "node --check src/utils.js && node --check src/export-parser.js && node --check src/compare.js && node --check src/login.js && node --check src/unfollow.js"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
