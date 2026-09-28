@@ -1,0 +1,14 @@
+node_modules/
+browser-profile/
+playwright-report/
+test-results/
+
+# Instagram exports and generated local state may contain personal data.
+data/followers/
+data/following/
+data/to-unfollow.json
+data/processed.json
+data/whitelist.json
+
+*.log
+.DS_Store
