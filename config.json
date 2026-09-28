@@ -1,0 +1,15 @@
+{
+  "followersPath": "./data/followers",
+  "followingPath": "./data/following",
+  "whitelistPath": "./data/whitelist.json",
+  "candidatesPath": "./data/to-unfollow.json",
+  "processedPath": "./data/processed.json",
+  "browserProfilePath": "./browser-profile",
+  "headless": false,
+  "maxPerRun": 20,
+  "minDelaySeconds": 10,
+  "maxDelaySeconds": 40,
+  "navigationTimeoutMs": 30000,
+  "actionTimeoutMs": 10000,
+  "postActionVerificationMs": 8000
+}
